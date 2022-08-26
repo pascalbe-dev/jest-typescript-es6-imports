@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "sample-angular-library": "libs/sample-angular-library",
     "sample-node-library": "libs/sample-node-library"
   }
 }

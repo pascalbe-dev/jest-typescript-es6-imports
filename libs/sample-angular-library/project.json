@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/sample-angular-library/src",
+  "prefix": "jest-typescript-es6-imports",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/sample-angular-library"],
+      "options": {
+        "jestConfig": "libs/sample-angular-library/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/sample-angular-library/**/*.ts",
+          "libs/sample-angular-library/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

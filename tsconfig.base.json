@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@jest-typescript-es6-imports/sample-angular-library": [
+        "libs/sample-angular-library/src/index.ts"
+      ],
       "@jest-typescript-es6-imports/sample-node-library": [
         "libs/sample-node-library/src/index.ts"
       ]
