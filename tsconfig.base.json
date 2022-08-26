@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@jest-typescript-es6-imports/sample-node-library": [
+        "libs/sample-node-library/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
